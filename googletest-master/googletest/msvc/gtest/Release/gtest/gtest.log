@@ -1,0 +1,3 @@
+﻿  gtest-all.cc
+C:\Users\Administrator\Desktop\algorithm\googletest-master\googletest\include\gtest/internal/gtest-internal.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  gtest.vcxproj -> C:\Users\Administrator\Desktop\algorithm\googletest-master\googletest\msvc\gtest/Release\gtest.lib
