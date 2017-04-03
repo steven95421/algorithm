@@ -6,7 +6,6 @@ static const char* student_id = "0410021" ;
 //
 //
 
-
 void min_heapify(int * input_array, int size, int position) {
 	// I'll give you an array without ordered
 	// please write an algorithm as text book
@@ -14,6 +13,24 @@ void min_heapify(int * input_array, int size, int position) {
 	// Example:
 	//      input : { 7, 14, 6, 5, 1, 3, 8 } ,7, 2
 	//   expected : { 7, 14, 3, 5, 1, 6, 8 }
+	int l = (position+1) * 2-1;
+	int r = (position+1) * 2;
+	int small=-1;
+	if (l <= size&&input_array[l] < input_array[position])
+		small = l;
+	else
+		small = position;
+	if (r <= size&&input_array[r] < input_array[small])
+		small = r;
+	if (small != position)
+	{
+		int temp = input_array[small];
+		input_array[small] = input_array[position];
+		input_array[position] = temp;
+		min_heapify(input_array, size, small);
+	}
+
+
 
 }
 

@@ -1,1 +1,64 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(55,5): error MSB8020: The build tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, please install Visual Studio 2010 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿gtest.lib(gtest-all.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+gtest.lib(gtest-all.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已在 gtest.lib(gtest-all.obj) 中定義過了
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z) 已在 gtest.lib(gtest-all.obj) 中定義過了
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) 已在 gtest.lib(gtest-all.obj) 中定義過了
+libcpmt.lib(ios.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(ios.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPAV12@@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale0.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(locale0.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) 已在 msvcprtd.lib(locale0_implib.obj) 中定義過了
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(cerr.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(cerr.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(cerr.obj) : error LNK2005: "public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(iosptrs.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(iosptrs.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(locale.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(locale.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(locale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlock.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(xlock.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xthrow.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(xthrow.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(wlocale.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(wlocale.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlocale.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(xlocale.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(xdateord.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(xdateord.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(xwctomb.obj) : error LNK2005: __Getcvt 已在 msvcprtd.lib(MSVCP140D.dll) 中定義過了
+libcpmt.lib(winapisupp.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(winapisupp.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(StlCompareStringA.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(StlCompareStringA.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(winapinls.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(winapinls.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(StlCompareStringW.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(StlCompareStringW.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(StlLCMapStringW.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(StlLCMapStringW.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+libcpmt.lib(StlLCMapStringA.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+libcpmt.lib(StlLCMapStringA.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
+LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+C:\Users\Administrator\Desktop\algorithm\algorithm\hw1\hw1\Debug\hw1.exe : fatal error LNK1169: 找到有一或多個已定義的符號

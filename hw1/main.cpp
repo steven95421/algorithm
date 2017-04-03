@@ -3,7 +3,6 @@
 // do not edit anything
 // do not edit anything
 //
-
 #include <cstdlib>
 
 #include <vector>
