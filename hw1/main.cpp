@@ -117,6 +117,16 @@ int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 #endif
+	/*	
+	int input[8] = { 1, 5, 3, 7, 14, 6, 8 ,999 };
+	min_heap_insert(input, sizeof(input) / sizeof(int), 4);
+	std::vector<int> check{ 1, 4, 3, 5, 14, 6, 8 ,7 };
+
+	std::vector<int> output;
+
+	for (auto i = 0; i < sizeof(input) / sizeof(int); ++i) {
+		//std::cout<<(input[i])<<' ';
+	}*/
 
 	std::cout << "\nstudent_id is " << student_id << "\n";
 

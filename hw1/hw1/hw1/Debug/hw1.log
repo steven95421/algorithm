@@ -1,7 +1,9 @@
-﻿gtest.lib(gtest-all.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\gtest\internal\gtest-internal.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+gtest.lib(gtest-all.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
 gtest.lib(gtest-all.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符
 msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已在 gtest.lib(gtest-all.obj) 中定義過了
-msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z) 已在 gtest.lib(gtest-all.obj) 中定義過了
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(void const *)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PBX@Z) 已在 gtest.lib(gtest-all.obj) 中定義過了
 msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) 已在 gtest.lib(gtest-all.obj) 中定義過了
 libcpmt.lib(ios.obj) : error LNK2038: 偵測到 '_ITERATOR_DEBUG_LEVEL' 不符: '0' 值與 '2' 值 (位於 main.obj) 不符
 libcpmt.lib(ios.obj) : error LNK2038: 偵測到 'RuntimeLibrary' 不符: 'MT_StaticRelease' 值與 'MDd_DynamicDebug' 值 (位於 main.obj) 不符

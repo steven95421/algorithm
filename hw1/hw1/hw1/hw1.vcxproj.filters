@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\qq.cpp">
+    <ClCompile Include="..\..\main.cpp">
       <Filter>資源檔</Filter>
     </ClCompile>
   </ItemGroup>
